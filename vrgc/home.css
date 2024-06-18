@@ -1,0 +1,127 @@
+body {
+    font-family: cursive, sans-serif;
+    margin: 0px;
+    padding: 0px;
+  }
+  .headerdiv {
+    display: flex;
+    justify-content: space-between;
+    background-color: #e6f7ff;
+    padding-top: 10px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+    padding-right: 50px;
+  }
+  
+  .headerdiv a {
+    text-decoration: none;
+    display: inline-block;
+    padding-top: 20px;
+    font-size: 20px;
+  }
+  .headerdiv p {
+    color: black;
+    font-size: 25px;
+    font-weight: bold;
+    margin: 0px;
+    width: 100px;
+  }
+  .bannerdiv {
+    background-image: url(img/Banner.png);
+    padding-top: 50px;
+    padding-bottom: 0px;
+    display: flex;
+    color: white;
+    font-size: 18px;
+  }
+  .bannerleft {
+    width: 60%;
+    padding-left: 100px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+  }
+  .bannerleft a {
+    text-decoration: none;
+  }
+  .bannerleft a:hover {
+    color: white;
+  }
+  .bannerright {
+    width: 40%;
+    padding: 50px;
+    text-align: center;
+  }
+  .service-card img {
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+  }
+  .support-header {
+    background-color: #e2f5ff;
+    padding: 20px;
+    font-family: cursive;
+    margin: 0px;
+  }
+  .support-header h2 {
+    text-align: center;
+  }
+  .support-item img {
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+  }
+  .support-section {
+    text-align: center;
+    background-color: #e6f7ff; 
+    display: flex;
+  }
+  .support-item {
+    width: 30%;
+    margin-bottom: 20px;
+    padding: 25px;
+  }
+  button {
+    background-color: #008cba; 
+    color: white;
+    padding: 10px 50px;
+    border: none;
+    border-radius: 20px;
+    cursor: pointer;
+    display: block;
+    width: 160px;
+    margin: 20px auto;
+  }
+  .services-header,
+  .services-container {
+    background-color: #e2f5ff;
+    padding: 20px;
+    text-align: center;
+    font-family: cursive;
+    margin: 0px;
+  }
+  
+  .service-card {
+    background-color: white;
+    padding: 20px;
+    border: 1px solid #ddd; 
+    border-radius: 10px;
+    text-align: center;
+    width: 22%; 
+    margin-bottom: 20px;
+  }
+  
+  .services-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
+
+  .support-item h3 {
+    color: #003366; 
+  }
+  
+  .support-item p {
+    color: #333; 
+    padding: 0 20px; 
+  }
+  
